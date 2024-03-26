@@ -8,17 +8,17 @@ namespace Progra1
 {
     internal class Circle : Shape
     {
-        private float r;
+        protected float radius;
 
-        public Circle(float r)
+        public Circle(float radius)
         {
-            this.type = "Círculo";
-            this.r = r;
+            this.radius = radius;
+            type = "Circle";
         }
 
         public override float GetArea()
         {
-            return 3.14f * r * r;
+            return 3.14f * radius * radius;
         }
     }
 }

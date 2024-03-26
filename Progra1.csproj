@@ -43,12 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Circle.cs" />
     <Compile Include="Controller.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Shape.cs" />
-    <Compile Include="Triangle.cs" />
+    <Compile Include="Week2ShapeExercise\Circle.cs" />
+    <Compile Include="Week2ShapeExercise\Rectangle.cs" />
+    <Compile Include="Week2ShapeExercise\Shape.cs" />
+    <Compile Include="Week2ShapeExercise\ShapeController.cs" />
+    <Compile Include="Week2ShapeExercise\Square.cs" />
+    <Compile Include="Week2ShapeExercise\Triangle.cs" />
     <Compile Include="Week2\MeleeWeapon.cs" />
     <Compile Include="Week2\RangeWeapon.cs" />
     <Compile Include="Week2\Weapon.cs" />

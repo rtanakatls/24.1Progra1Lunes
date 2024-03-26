@@ -9,17 +9,11 @@ namespace Progra1
 {
     internal class Program
     {
-        private int a;
-
         static void Main(string[] args)
         {
-            Controller controller = new Controller();
+            ShapeController controller = new ShapeController();
             controller.Execute();
         }
 
-        void Menu()
-        {
-
-        }
     }
 }
