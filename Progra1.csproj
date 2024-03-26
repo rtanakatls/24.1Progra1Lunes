@@ -49,6 +49,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Shape.cs" />
     <Compile Include="Triangle.cs" />
+    <Compile Include="Week2\MeleeWeapon.cs" />
+    <Compile Include="Week2\RangeWeapon.cs" />
+    <Compile Include="Week2\Weapon.cs" />
+    <Compile Include="Week2\WeaponController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
