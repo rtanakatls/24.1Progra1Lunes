@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Progra1
 {
-    internal class Shape
+    internal abstract class Shape
     {
         protected string type;
 
@@ -15,10 +15,8 @@ namespace Progra1
             get { return type; }
         }
 
-        public virtual float GetArea()
-        {
-            return 0;
-        }
+        public abstract float GetArea();
+
 
 
         
