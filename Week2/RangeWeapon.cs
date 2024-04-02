@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Progra1.Week2
 {
-    internal class RangeWeapon : Weapon
+    internal class RangeWeapon : Weapon, IShooter
     {
         private int projectileDamage;
 
@@ -18,6 +18,11 @@ namespace Progra1.Week2
         public override int GetDamage()
         {
             return damage + projectileDamage;
+        }
+
+        public void Shoot()
+        {
+            Console.WriteLine("Shooting with a range weapon");
         }
     }
 }

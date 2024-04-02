@@ -52,6 +52,7 @@
     <Compile Include="Week2ShapeExercise\ShapeController.cs" />
     <Compile Include="Week2ShapeExercise\Square.cs" />
     <Compile Include="Week2ShapeExercise\Triangle.cs" />
+    <Compile Include="Week2\IShooter.cs" />
     <Compile Include="Week2\MeleeWeapon.cs" />
     <Compile Include="Week2\RangeWeapon.cs" />
     <Compile Include="Week2\Weapon.cs" />

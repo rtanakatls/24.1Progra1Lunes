@@ -14,8 +14,13 @@ namespace Progra1.Week2
 
 
             List<Weapon> weapons = new List<Weapon>();
-            weapons.Add(new RangeWeapon(10, 2));
+            RangeWeapon rangeWeapon= new RangeWeapon(10, 2);
+            weapons.Add(rangeWeapon);
             weapons.Add(new MeleeWeapon(10, 5));
+
+            List<IShooter> shooters = new List<IShooter>();
+
+            shooters.Add(rangeWeapon);
 
             foreach(Weapon weapon in weapons)
             {
